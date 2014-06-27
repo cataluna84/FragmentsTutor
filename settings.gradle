@@ -1,0 +1,2 @@
+include ':simpleFragment'
+include ':fragments'
