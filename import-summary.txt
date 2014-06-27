@@ -1,6 +1,15 @@
 ECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
 
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+
 Replaced Jars with Dependencies:
 --------------------------------
 The importer recognized the following .jar files as third party
@@ -18,10 +27,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => fragments\src\main\AndroidManifest.xml
-* assets\ => fragments\src\main\assets\
-* res\ => fragments\src\main\res\
-* src\ => fragments\src\main\java\
+* AndroidManifest.xml => censusApp\src\main\AndroidManifest.xml
+* assets\ => censusApp\src\main\assets\
+* res\ => censusApp\src\main\res\
+* src\ => censusApp\src\main\java\
 
 Missing Android Support Repository:
 -----------------------------------

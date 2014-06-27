@@ -1,2 +1,3 @@
 include ':simpleFragment'
 include ':fragments'
+include ':censusApp'
