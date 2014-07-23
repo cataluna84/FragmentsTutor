@@ -16,13 +16,11 @@ public class ContactFragment extends Fragment {
 
 	private Contact contact;
 	private EditText contactNameEditText;
-
 	private EditText contactStreetEditText;
 	private EditText contactCityEditText;
 	private EditText contactPhoneEditText;
 	
 	// NEW 
-	
 	private CheckBox contactedCheckBox;
 	
 	// END OF NEW
@@ -35,12 +33,10 @@ public class ContactFragment extends Fragment {
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-
 		contact = new Contact();
 	}
 
 	// Used to inflate the Fragment, or show it on the screen
-
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -52,11 +48,9 @@ public class ContactFragment extends Fragment {
 		View theView = inflater.inflate(R.layout.fragment_contact, container, false);
 
 		// Get a reference to the EditText
-
 		contactNameEditText = (EditText) theView.findViewById(R.id.contactNameEditText);
 
-		// If text in the EditText box is edited it will change the
-		// name.
+		// If text in the EditText box is edited it will change the name.
 		
 		contactStreetEditText = (EditText) theView.findViewById(R.id.contactStreetEditText);
 		contactCityEditText = (EditText) theView.findViewById(R.id.contactCityEditText);
@@ -64,26 +58,25 @@ public class ContactFragment extends Fragment {
 		
 		// All the EditText components will use just one TextWatcher
 		// which auto updates Contact.java
-
 		TextWatcher editTextWatcher = new TextWatcher() {
 
 			@Override
 			public void onTextChanged(CharSequence arg0, int arg1, int arg2,
 					int arg3) {
 
-				if (contactNameEditText.hasFocus() == true){
+				if (contactNameEditText.hasFocus()){
 
 					contact.setName(arg0.toString());
 
-				} else if (contactStreetEditText.hasFocus() == true){
+				} else if (contactStreetEditText.hasFocus()){
 					
 					contact.setStreetAddress(arg0.toString());
 					
-				} else if (contactCityEditText.hasFocus() == true){
+				} else if (contactCityEditText.hasFocus()){
 					
 					contact.setCity(arg0.toString());
 					
-				} else if (contactPhoneEditText.hasFocus() == true){
+				} else if (contactPhoneEditText.hasFocus()){
 					
 					contact.setPhoneNumber(arg0.toString());
 					
@@ -136,7 +129,5 @@ public class ContactFragment extends Fragment {
 		// We mark this false because the Activity will add the view.
 
 		return theView;
-
 	}
-
 }
