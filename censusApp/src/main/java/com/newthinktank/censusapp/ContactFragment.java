@@ -20,15 +20,11 @@ public class ContactFragment extends Fragment {
 	private EditText contactCityEditText;
 	private EditText contactPhoneEditText;
 	
-	// NEW 
 	private CheckBox contactedCheckBox;
-	
-	// END OF NEW
 
 	// Generate this with Right Click - Source - Override/Implement methods
 	// This method is called when the Fragment is called for.
 	// We initialize everything here.
-
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -44,14 +40,12 @@ public class ContactFragment extends Fragment {
 		// Pass in the layout to inflate, the views parent and whether
 		// to add the inflated view to the parent.
 		// We mark this false because the Activity will add the view.
-
 		View theView = inflater.inflate(R.layout.fragment_contact, container, false);
 
 		// Get a reference to the EditText
 		contactNameEditText = (EditText) theView.findViewById(R.id.contactNameEditText);
 
 		// If text in the EditText box is edited it will change the name.
-		
 		contactStreetEditText = (EditText) theView.findViewById(R.id.contactStreetEditText);
 		contactCityEditText = (EditText) theView.findViewById(R.id.contactCityEditText);
 		contactPhoneEditText = (EditText) theView.findViewById(R.id.contactPhoneEditText);

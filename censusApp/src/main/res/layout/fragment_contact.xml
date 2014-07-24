@@ -3,7 +3,8 @@
     android:id="@+id/TableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/app_outer_margin" >
+    android:layout_margin="@dimen/app_outer_margin"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/contactNameEditText"
@@ -41,7 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/component_bottom_margin"
         android:ems="10"
-        android:hint="@string/contact_phone_hint"
+        android:hint="@string/contact_phone_number_hint"
         android:inputType="phone" />
 
     <TableRow

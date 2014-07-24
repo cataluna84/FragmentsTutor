@@ -34,7 +34,7 @@ public class Contact {
 	}
 
 	public void setName(String name) {
-		Log.e("CENSUS", "NAME CHANGED TO " + name);
+		Log.e("CENSUS", "NAME CHANGED TO: " + name);
 		this.name = name;
 	}
 
@@ -43,7 +43,7 @@ public class Contact {
 	}
 
 	public void setPhoneNumber(String phoneNumber) {
-		Log.e("CENSUS", "PHONE CHANGED TO " + phoneNumber);
+		Log.e("CENSUS", "PHONE CHANGED TO: " + phoneNumber);
 		this.phoneNumber = phoneNumber;
 	}
 
@@ -53,7 +53,7 @@ public class Contact {
 	}
 
 	public void setStreetAddress(String streetAddress) {
-		Log.e("CENSUS", "STREET CHANGED TO " + streetAddress);
+		Log.e("CENSUS", "STREET CHANGED TO: " + streetAddress);
 		this.streetAddress = streetAddress;
 	}
 
@@ -62,7 +62,7 @@ public class Contact {
 	}
 
 	public void setCity(String city) {
-		Log.e("CENSUS", "CITY CHANGED TO " + city);
+		Log.e("CENSUS", "CITY CHANGED TO: " + city);
 		this.city = city;
 	}
 	
@@ -73,7 +73,7 @@ public class Contact {
 	}
 
 	public void setContacted(boolean contacted) {
-		Log.e("CENSUS", "CONTACTED CHANGED TO " + contacted);
+		Log.e("CENSUS", "CONTACTED CHANGED TO: " + contacted);
 		this.contacted = contacted;
 	}
 

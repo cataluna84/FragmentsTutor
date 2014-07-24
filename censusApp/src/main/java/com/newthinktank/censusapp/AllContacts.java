@@ -63,39 +63,25 @@ public class AllContacts {
 
 	public static AllContacts get(Context context){
 
-		if(allContacts == null){
-
+		if(allContacts == null) {
 			// getApplicationContext returns the global Application object
 			// This Context is global to every part of the application
-
 			allContacts = new AllContacts(context.getApplicationContext());
-
 		}
-
 		return allContacts;
-
 	}
 
 	public ArrayList<Contact> getContactList(){
-
 		return contactList;
-
 	}
 
 	public Contact getContact(UUID id){
-
 		for(Contact theContact : contactList){
-
 			if(theContact.getIdNumber().equals(id)){
-
 				return theContact;
-
 			}
-
 		}
-
 		return null;
-
 	}
 
 }

@@ -24,15 +24,12 @@ public class CensusApp extends FragmentActivity {
 		
 		// Check if the FragmentManager knows about the Fragment 
 		// id we refer to
-		
 		Fragment theFragment = fragManager.findFragmentById(R.id.fragmentContainer);
 		
 		// Check if the Fragment was found
-		
-		if(theFragment == null){
+		if(theFragment == null) {
 			
 			// If the Fragment wasn't found then we must create it
-			
 			theFragment = new ContactFragment();
 			
 			// Creates and commits the Fragment transaction
@@ -45,9 +42,6 @@ public class CensusApp extends FragmentActivity {
 			fragManager.beginTransaction()
 				.add(R.id.fragmentContainer, theFragment)
 				.commit();
-			
 		}
 	}
-
-	
 }
