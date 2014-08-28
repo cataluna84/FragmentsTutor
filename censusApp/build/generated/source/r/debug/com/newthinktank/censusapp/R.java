@@ -48,8 +48,7 @@ public final class R {
         public static final int contact_city_hint=0x7f050002;
         public static final int contact_contacted_checkbox=0x7f050003;
         public static final int contact_name_hint=0x7f050004;
-        public static final int contact_phone_hint=0x7f050005;
-        public static final int contact_phone_number_hint=0x7f05000a;
+        public static final int contact_phone_number_hint=0x7f050005;
         public static final int contact_street_hint=0x7f050006;
         public static final int fragment_contact_list_title=0x7f050007;
         public static final int list_item_contact_name=0x7f050008;

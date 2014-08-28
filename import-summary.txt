@@ -7,6 +7,7 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
+* .DS_Store
 * ic_launcher-web.png
 * proguard-project.txt
 
@@ -27,10 +28,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => censusApp\src\main\AndroidManifest.xml
-* assets\ => censusApp\src\main\assets\
-* res\ => censusApp\src\main\res\
-* src\ => censusApp\src\main\java\
+* AndroidManifest.xml => censusAppFinal\src\main\AndroidManifest.xml
+* assets\ => censusAppFinal\src\main\assets\
+* res\ => censusAppFinal\src\main\res\
+* src\ => censusAppFinal\src\main\java\
 
 Missing Android Support Repository:
 -----------------------------------

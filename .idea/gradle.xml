@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/censusApp" />
+            <option value="$PROJECT_DIR$/censusAppFinal" />
             <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/simpleFragment" />
           </set>

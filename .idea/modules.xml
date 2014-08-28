@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FragmentsTutor.iml" filepath="$PROJECT_DIR$/FragmentsTutor.iml" />
       <module fileurl="file://$PROJECT_DIR$/censusApp/censusApp.iml" filepath="$PROJECT_DIR$/censusApp/censusApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/censusAppFinal/censusAppFinal.iml" filepath="$PROJECT_DIR$/censusAppFinal/censusAppFinal.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/simpleFragment/simpleFragment.iml" filepath="$PROJECT_DIR$/simpleFragment/simpleFragment.iml" />
     </modules>
